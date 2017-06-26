@@ -1,0 +1,53 @@
+dependencies:
+  /content/pages/about.md:
+  - /content/pages/about.md
+  - /content/pages/archive.md
+  - /content/pages/index.md
+  - /content/pages/team.md
+  /content/pages/archive.md:
+  - /content/pages/about.md
+  - /content/pages/archive.md
+  - /content/pages/index.md
+  - /content/pages/team.md
+  - /content/posts/20130725.md
+  - /content/posts/20130927.md
+  - /content/posts/20140101.md
+  - /content/posts/20140204.md
+  /content/pages/index.md:
+  - /content/pages/about.md
+  - /content/pages/archive.md
+  - /content/pages/index.md
+  - /content/pages/team.md
+  - /content/posts/20130725.md
+  - /content/posts/20130927.md
+  - /content/posts/20140101.md
+  - /content/posts/20140204.md
+  /content/pages/team.md:
+  - /content/pages/about.md
+  - /content/pages/archive.md
+  - /content/pages/index.md
+  - /content/pages/team.md
+  /content/posts/20130725.md:
+  - /content/pages/about.md
+  - /content/pages/archive.md
+  - /content/pages/index.md
+  - /content/pages/team.md
+  - /content/posts/20130725.md
+  /content/posts/20130927.md:
+  - /content/pages/about.md
+  - /content/pages/archive.md
+  - /content/pages/index.md
+  - /content/pages/team.md
+  - /content/posts/20130927.md
+  /content/posts/20140101.md:
+  - /content/pages/about.md
+  - /content/pages/archive.md
+  - /content/pages/index.md
+  - /content/pages/team.md
+  - /content/posts/20140101.md
+  /content/posts/20140204.md:
+  - /content/pages/about.md
+  - /content/pages/archive.md
+  - /content/pages/index.md
+  - /content/pages/team.md
+  - /content/posts/20140204.md
