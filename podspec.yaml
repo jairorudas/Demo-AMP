@@ -29,8 +29,10 @@ preprocessors:
 
 deployments:
   default:
-    destination: local
-    out_dir: my-codelab-launch/
+    destination: git
+    repo: https://github.com/jairorudas/Demo-AMP.git
+    branch: master
+    root_dir: ./build/index.html
   gcs:
     destination: gcs
     bucket: mybucket.example.com
