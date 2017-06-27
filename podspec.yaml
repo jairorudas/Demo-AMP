@@ -25,7 +25,7 @@ static_dirs:
   serve_at: /static/images/albuns/
 
 - static_dir: /source/images/
-  serve_at: /
+  serve_at:  /source/images/
 
 preprocessors:
 - kind: sass

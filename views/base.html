@@ -5,7 +5,7 @@
 <!--<script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>-->
 <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
 <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
-<script async custom-element="amp-facebook" src="https://cdn.ampproject.org/v0/amp-facebook-0.1.js"></script>
+<script async custom-element="amp-pinterest" src="https://cdn.ampproject.org/v0/amp-pinterest-0.1.js"></script>
 
 <title>{{_(doc.title)}} – {{_(podspec.title)}}</title>
 <link rel="canonical" href="/" />
@@ -33,29 +33,14 @@
       role="button"
       tabindex="0"></amp-img>
     <ul>
+       {% for page in g.docs('pages', locale=doc.locale) %}
       <li>
-        <a href="/"><i class="material-icons">home</i> Home</a>
+        <a href="{{page.url.path}}"><i class="material-icons">{{page.icon}}</i> {{_(page.titles('nav'))}}</a>
       </li>
-      <li> 
-        <a href="/cardapio"> <i class="material-icons">place</i> Cardapio </a>
-      </li>
-      <li> 
-        <a href="/vinhos"> vinhos</a>
-      </li>
-      <li>
-        <a href="/cerveja">
-          Ceverja 
-        </a>
-      </li>
-       <li> 
-        <a href="/cardapio"> <i class="material-icons">beenhere</i> Endereço</a>
-      </li>
-      <li> 
-      <li>
-        <a href="musica"> <i class="material-icons">library_music</i> Nossa Musica</a> 
-      </li>
+      {% endfor %}
     </ul>
   </amp-sidebar>
+
 
   <header class="zoom-header">
     <div class="row middle-xs">
@@ -93,10 +78,20 @@
         <h3>Mais sobre nós na web</h3>
       </div>
       <div class="col-xs-4">
-        facebook
+        <div class="box">
+          facebook
+        </div>
       </div>
-      <div class="col-xs-4"></div>
-      <div class="col-xs-4"></div>
+      <div class="col-xs-4">
+        <div class="box">
+          Pinterest
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <div class="box">
+          twitter
+        </div>
+      </div>
     </div>
   </footer>
 

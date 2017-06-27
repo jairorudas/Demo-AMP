@@ -1,11 +1,11 @@
 ---
-$title@: The Team
+$title@: Cardapio
 $titles:
-  nav@: Team
+  nav@: cardapio
 $order: 3
 $view: /views/team.html
 
-icon: users
+icon: dashboard
 
 people:
 
