@@ -2,28 +2,100 @@
 
 {% block main %}
 
+<div class="row">
+	<div class="col-xs-12 carousel-pratos">
+		<h2 class="title">Conheça nossos Pratos</h2>
+		<amp-carousel type="slides"
+			width="320"
+			height="250"
+			loop
+			autoplay
+			delay="3000"
+			layout="responsive">
+			<amp-img src="{{g.static('/source/images/pratos/prato1.png').url.path}}"
+				layout="fill" alt="especialidade da casa"></amp-img>
+			
+			<amp-img src="{{g.static('/source/images/pratos/prato2.jpg').url.path}}"
+				layout="fill" alt="prato do ano"></amp-img>
+			
+			<amp-img src="{{g.static('/source/images/pratos/prato3.jpg').url.path}}"
+				layout="fill" alt="prato que fez historia no bistro"></amp-img>
+			
+			<amp-img src="{{g.static('/source/images/pratos/prato4.jpg').url.path}}"
+				layout="fill" alt="prato mais barato da casa"></amp-img>
+			
+			<amp-img src="{{g.static('/source/images/pratos/prato5.jpg').url.path}}"
+				layout="fill" alt="o prato mais pedido da casa"></amp-img>
+			
+			<amp-img src="{{g.static('/source/images/pratos/prato5.jpg').url.path}}"
+				layout="fill" alt="prato que comeu a rainha isabel"></amp-img>
+			
+			<amp-img src="{{g.static('/source/images/pratos/paes.jpg').url.path}}"
+				layout="fill" alt="nossos paes sao os melhores"></amp-img>
+		</amp-carousel>
+	</div>
+</div>
+
+
  <div class="row">
 	 <div class="col-xs-12">
 	 	<h2>Nossa Música</h2>
-		<amp-carousel height="200"
+		<amp-carousel height="150"
 			layout="fixed-height"
+			type="carousel"
 			autoplay
-			delay="1000">
-			<amp-img src="https://www.kboing.com.br/fotos/imagens/4bf19a741a9dc.jpg"
-			width="200"
-			height="200"
-			alt="a sample image"></amp-img>
-			<amp-img src="https://yt3.ggpht.com/-lUCM1sYpMPc/AAAAAAAAAAI/AAAAAAAAAAA/oJSG810bRFw/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"
-			width="200"
-			height="200"
-			alt="another sample image"></amp-img>
-			<amp-img src="https://yt3.ggpht.com/-lUCM1sYpMPc/AAAAAAAAAAI/AAAAAAAAAAA/oJSG810bRFw/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"
-			width="200"
-			height="200"
+			loop
+			delay="1000"	
+			class="center">
+			
+			<amp-img src="{{g.static('/source/images/albuns/mozart.jpeg').url.path}}"
+			width="150"
+			height="150"
+			class="albun"
 			alt="and another sample image"></amp-img>
+
+			<amp-img src="{{g.static('/source/images/albuns/beethoven.jpg').url.path}}"
+			width="150"
+			height="150"
+			class="albun"
+			alt="a sample image"></amp-img>
+
+			<amp-img src="{{g.static('/source/images/albuns/recomposed1.jpg').url.path}}"
+			width="150"
+			height="150"
+			class="albun"
+			alt="and another sample image"></amp-img>
+
+			<amp-img src="{{g.static('/source/images/albuns/ludovichio1.jpg').url.path}}"
+			width="150"
+			height="150"
+			class="albun"
+			alt="another sample image"></amp-img>
+
+
+			<amp-img src="{{g.static('/source/images/albuns/hezekiah.jpg').url.path}}"
+			width="150"
+			height="150"
+			class="albun"
+			alt="another sample image"></amp-img>
+
+			<amp-img src="{{g.static('/source/images/albuns/yiruma.jpg').url.path}}"
+			width="150"
+			height="150"
+			class="albun"
+			alt="and another sample image"></amp-img>
+
 		</amp-carousel>
 	 </div>
  </div>
+
+<div class="row">
+	<div class="col-xs-12">
+		<h2>Adega cheia de Vinhos</h2>
+		
+	</div>
+
+</div>
   
  
 

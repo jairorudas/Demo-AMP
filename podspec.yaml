@@ -17,10 +17,15 @@ localization:
 static_dirs:
 - static_dir: /dist/
   serve_at: /static/css/
+
 - static_dir: /source/fonts/
   serve_at: /static/fonts/
+
+- static_dir: /source/images/albuns/
+  serve_at: /static/images/albuns/
+
 - static_dir: /source/images/
-  serve_at: /static/images/
+  serve_at: /
 
 preprocessors:
 - kind: sass
