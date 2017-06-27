@@ -21,16 +21,16 @@
 </style>
 
 <body>
-  <header class="container zoom-header">
+  <header class="zoom-header">
     <div class="row middle-xs">
       <div  class="col-xs-8 col-xs-offset-2 center-xs">
         <h1 class="title">
           <span class="indent">Bistro</span>
           <a href="{{g.doc('/content/pages/index.md', locale=doc.locale).url.path}}">
           <amp-img 
-            src="{{g.static('/source/images/logo.png').url.path}}"
-            width="56"
-            height="56">
+            src="{{g.static('/source/images/logo4.png').url.path}}"
+            width="50"
+            height="50">
             <div fallback> offline </div>
           </amp-img>
           </a>
@@ -41,36 +41,36 @@
     </div>
   </header>
 
-    <amp-sidebar  id="sidebar" layout="nodisplay" side="right">
-      <amp-img class="amp-close-image"
-        src="{{g.static('/source/images/close.png').url.path}}"
-        width="20"
-        height="20"
-        alt="close sidebar"
-        on="tap:sidebar.close"
-        role="button"
-        tabindex="0"></amp-img>
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li> 
-          <a href="/cardapio"> 
-            Cardapio 
-          </a></li>
-        <li> 
-          <a href="/vinhos"> vinhos</a>
-        </li>
-        <li>
-          <a href="/cerveja">
-            Ceverja 
-          </a>
-        </li>
-        <li>
-          <a href="musica">Nossa Musica</a> 
-        </li>
-      </ul>
-    </amp-sidebar>
+  <amp-sidebar  id="sidebar" layout="nodisplay" side="right">
+    <amp-img class="amp-close-image"
+      src="{{g.static('/source/images/close.png').url.path}}"
+      width="20"
+      height="20"
+      alt="close sidebar"
+      on="tap:sidebar.close"
+      role="button"
+      tabindex="0"></amp-img>
+    <ul>
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li> 
+        <a href="/cardapio"> 
+          Cardapio 
+        </a></li>
+      <li> 
+        <a href="/vinhos"> vinhos</a>
+      </li>
+      <li>
+        <a href="/cerveja">
+          Ceverja 
+        </a>
+      </li>
+      <li>
+        <a href="musica">Nossa Musica</a> 
+      </li>
+    </ul>
+  </amp-sidebar>
 
   <main>    
     <!--main-->
