@@ -1,53 +1,91 @@
 dependencies:
   /content/pages/about.md:
   - /content/pages/about.md
-  - /content/pages/vinhos.md
   - /content/pages/index.md
   - /content/pages/team.md
-  /content/pages/vinhos.md:
-  - /content/pages/about.md
   - /content/pages/vinhos.md
+  /content/pages/cardapio.md:
+  - /content/pages/cardapio.md
+  - /content/pages/endereco.md
   - /content/pages/index.md
-  - /content/pages/team.md
-  - /content/posts/20130725.md
-  - /content/posts/20130927.md
-  - /content/posts/20140101.md
-  - /content/posts/20140204.md
+  - /content/pages/musica.md
+  - /content/pages/vinhos.md
+  /content/pages/endereco.md:
+  - /content/pages/cardapio.md
+  - /content/pages/endereco.md
+  - /content/pages/index.md
+  - /content/pages/musica.md
+  - /content/pages/vinhos.md
   /content/pages/index.md:
   - /content/pages/about.md
-  - /content/pages/vinhos.md
+  - /content/pages/cardapio.md
+  - /content/pages/endereco.md
   - /content/pages/index.md
+  - /content/pages/musica.md
   - /content/pages/team.md
+  - /content/pages/vinhos.md
   - /content/posts/20130725.md
   - /content/posts/20130927.md
   - /content/posts/20140101.md
   - /content/posts/20140204.md
+  /content/pages/musica.md:
+  - /content/pages/cardapio.md
+  - /content/pages/endereco.md
+  - /content/pages/index.md
+  - /content/pages/musica.md
+  - /content/pages/vinhos.md
   /content/pages/team.md:
   - /content/pages/about.md
-  - /content/pages/vinhos.md
   - /content/pages/index.md
   - /content/pages/team.md
+  - /content/pages/vinhos.md
+  /content/pages/vinhos.md:
+  - /content/pages/about.md
+  - /content/pages/cardapio.md
+  - /content/pages/endereco.md
+  - /content/pages/index.md
+  - /content/pages/musica.md
+  - /content/pages/team.md
+  - /content/pages/vinhos.md
+  - /content/posts/20130725.md
+  - /content/posts/20130927.md
+  - /content/posts/20140101.md
+  - /content/posts/20140204.md
   /content/posts/20130725.md:
   - /content/pages/about.md
-  - /content/pages/vinhos.md
+  - /content/pages/cardapio.md
+  - /content/pages/endereco.md
   - /content/pages/index.md
+  - /content/pages/musica.md
   - /content/pages/team.md
+  - /content/pages/vinhos.md
   - /content/posts/20130725.md
   /content/posts/20130927.md:
   - /content/pages/about.md
-  - /content/pages/vinhos.md
+  - /content/pages/cardapio.md
+  - /content/pages/endereco.md
   - /content/pages/index.md
+  - /content/pages/musica.md
   - /content/pages/team.md
+  - /content/pages/vinhos.md
   - /content/posts/20130927.md
   /content/posts/20140101.md:
   - /content/pages/about.md
   - /content/pages/archive.md
+  - /content/pages/cardapio.md
+  - /content/pages/endereco.md
   - /content/pages/index.md
+  - /content/pages/musica.md
   - /content/pages/team.md
+  - /content/pages/vinhos.md
   - /content/posts/20140101.md
   /content/posts/20140204.md:
   - /content/pages/about.md
   - /content/pages/archive.md
+  - /content/pages/cardapio.md
+  - /content/pages/endereco.md
   - /content/pages/index.md
+  - /content/pages/musica.md
   - /content/pages/team.md
+  - /content/pages/vinhos.md
   - /content/posts/20140204.md

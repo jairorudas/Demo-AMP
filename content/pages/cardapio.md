@@ -3,7 +3,7 @@ $title@: Cardapio
 $titles:
   nav@: cardapio
 $order: 3
-$view: /views/team.html
+$view: /views/cardapio.html
 
 icon: dashboard
 
@@ -34,6 +34,4 @@ people:
   bio@: Semesarumque rata, esse illi resoluto fronte, in, contigit positi.
 
 ---
-[![Image credit: NASA](/static/images/banner2.jpg)](http://www.flickr.com/photos/nasahqphoto/)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
