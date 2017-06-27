@@ -5,6 +5,7 @@
 <!--<script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>-->
 <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
 <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+<script async custom-element="amp-facebook" src="https://cdn.ampproject.org/v0/amp-facebook-0.1.js"></script>
 
 <title>{{_(doc.title)}} – {{_(podspec.title)}}</title>
 <link rel="canonical" href="/" />
@@ -21,25 +22,6 @@
 </style>
 
 <body>
-  <header class="zoom-header">
-    <div class="row middle-xs">
-      <div  class="col-xs-8 col-xs-offset-2 center-xs">
-        <h1 class="title">
-          <span class="indent">Bistro</span>
-          <a href="{{g.doc('/content/pages/index.md', locale=doc.locale).url.path}}">
-          <amp-img 
-            src="{{g.static('/source/images/logo4.png').url.path}}"
-            width="50"
-            height="50">
-            <div fallback> offline </div>
-          </amp-img>
-          </a>
-        </h1>
-      </div>
-
-      <i class="material-icons col-xs-2 " role="button" tabindex="1" on="tap:sidebar.toggle">menu</i>
-    </div>
-  </header>
 
   <amp-sidebar  id="sidebar" layout="nodisplay" side="right">
     <amp-img class="amp-close-image"
@@ -52,12 +34,11 @@
       tabindex="0"></amp-img>
     <ul>
       <li>
-        <a href="/">Home</a>
+        <a href="/"><i class="material-icons">home</i> Home</a>
       </li>
       <li> 
-        <a href="/cardapio"> 
-          Cardapio 
-        </a></li>
+        <a href="/cardapio"> <i class="material-icons">place</i> Cardapio </a>
+      </li>
       <li> 
         <a href="/vinhos"> vinhos</a>
       </li>
@@ -66,11 +47,36 @@
           Ceverja 
         </a>
       </li>
+       <li> 
+        <a href="/cardapio"> <i class="material-icons">beenhere</i> Endereço</a>
+      </li>
+      <li> 
       <li>
-        <a href="musica">Nossa Musica</a> 
+        <a href="musica"> <i class="material-icons">library_music</i> Nossa Musica</a> 
       </li>
     </ul>
   </amp-sidebar>
+
+  <header class="zoom-header">
+    <div class="row middle-xs">
+      <div  class="col-xs-8 col-xs-offset-2 center-xs">
+        <h1 class="title">
+          <span class="indent">Bistro</span>
+          <a href="{{g.doc('/content/pages/index.md', locale=doc.locale).url.path}}">
+          <amp-img 
+            src="{{g.static('/source/images/logo4.png').url.path}}"
+            width="60"
+            height="60"
+            alt="Logo Bistro">
+            <div fallback> Bistro Fracés </div>
+          </amp-img>
+          </a>
+        </h1>
+      </div>
+
+      <i class="material-icons col-xs-2 " role="button" tabindex="1" on="tap:sidebar.toggle">menu</i>
+    </div>
+  </header>
 
   <main>    
     <!--main-->
@@ -80,4 +86,22 @@
       {% endblock %}
     </section>
   </main>
+   
+   <footer>
+    <div class="row center">
+      <div class="col-xs-12 center-xs">
+        <h3>Mais sobre nós na web</h3>
+      </div>
+      <div class="col-xs-4">
+        facebook
+      </div>
+      <div class="col-xs-4"></div>
+      <div class="col-xs-4"></div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
+ 
 
